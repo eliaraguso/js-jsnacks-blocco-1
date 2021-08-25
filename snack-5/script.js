@@ -8,7 +8,7 @@ for (var i = 0; i < 6; i++) {
     var numero = parseInt (prompt("Inserisci un numero"));
     
     // se il numero è pari lo inserisco nel mio array
-    if (numero%2 == 0) {
+    if (numero%2 !== 0) {
         contenitoreNumeri.push(numero);
     }
 }
